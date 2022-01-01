@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "saltabackend",
+  "private_key_id": "c717ce0abadbe47fb23fe7caf7814daddde89d28",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqcaQTvNISJp6q\nFiE9Fy1kPHAU8ud3n6GLVjK/rEhR8S/pp/Rufg0Zy9LDBGhdEh207WjYbrnkaN3j\nIrr8OcA3TwV+s52GqPUVAomQL4fYg+4mmfVEoajULly2d+PgI1hf4khcX4fT4Uts\nLbdPRmF4dtL5fjBJ7P+OGhTEtru20BgkhhGKyoK0xMsFFihwX89eSJk9fBP8mW3C\nbCMVxBQ296BZsU9LJZ0yUJkkeb7rQBsEVx8gro2JDKupfJWUM1VEpLa1/urOgRsj\nxcwYRAyykpM76pm1Q8bZIkB7NZ5dqfxwTG2exR9U2qO2uZpWV5kGDPsivTEdIypo\nMMgT6msPAgMBAAECggEAQt1eDtguWSyJZhRUadDj38TN+4nnQEiBaVYhhowhuvOx\nZiqbe5U7snkBb7wU7R4kRUw1q2KUzoRNN8PyMuy8+XWopDH2hFNYAiwCp2veERSA\nougXDhuVTdf6SyLxZIa5LrRoysQ3Vum1WvT8Sr9Dkayby4CzlOzCvI6Cw0Ekluyb\neHt9uJ//rl4utyaLkCzPr9vqdJW0qmwbuc1IgmhhpR3S1XEKlIPpRm5M2u1sr6sf\nr3R5ANoQTt0aTslqpQecHehY5ZBlkyp3ZoKHOsRxIheBBBHS6bHvVBEita4CoMGR\n1XtVZJRstAsR4ZwkBxctYXpLpSYm5y1z2Ypl45FKsQKBgQDi1xR9jva25qYuLcAm\nN7DxtFTVsP2iwX3S7mKi/Vmzh/RqAReMSmISxDtkfzhewySdkNFbSdmO2wogrSLL\nYvlKllibCVn3fU4gyRxOcEihXf/TX1vwBK37abereWpB8HSL7pxYfil7kTgGq3mh\n+WGDperm4NzcV3XJ0CzfXtXTFQKBgQDAWqhC1Mw+2N/uYKIng5PX5uTxw+Tt7wwC\npKF227AElZtmG7QbuedE8fXeELX6e4z9IwbdnXzcqBnpKYT4T0ZqxdTfVaUtl1Zc\nOU5dcQ+2irbX4fIbEULhdedgyINoOmzLtEddHnBpoRsYtK5/tZGH5ZpUyR4Bb9zI\niYj2hz7ekwKBgQCkb+22pzBJniHRT/D+w1hNnr/wuIDkvwcLJSvzo1ynPGL9hRUg\n6br2h7HWRDME3sloP1bEqmA/oqFQ1rFmZrT4UMyidsD1G6zLL36JjfPYpl+RRotL\nDtlga15tu3I/oqOZ3LsRm0NPBBJtI1jlBfaejGQgQdlZET2dsn8U3ZZ7kQKBgG+H\nYQ428iHyf4xorTx59wv1DYP8kE1BEFar/A69fEZ8NDk1EO4OkUCRhnx2df1BC9Nu\nLrnqaY5LTZK6hyWuWWbpQ+8manqPx/v7IivdtT2jGjb8A/Obw4qUYU7llAOn9JL7\n+XDNiGJGjj557L+RmEsSXrSQU/yDTqFb1XUTn+lPAoGBAOGhikgIP74JFdaeSZxv\nWe8Bt01FeRNjEmOlaaUlr3lzJUMWXHk+S2Pw4NS4OFwik/QlMcO2fZ661RjoKNM/\nC7ZqR0pQRqQ+Qe5MiGlhaUN4uClV0Ha7c6vpGEGZJBTiKsUcFS2HlPO/YBDvXUkv\n6BvLN8bEWiQSauQ2OUlZKt8F\n-----END PRIVATE KEY-----\n",
+  "client_email": "saltabackend@saltabackend.iam.gserviceaccount.com",
+  "client_id": "109010343417506237477",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/saltabackend%40saltabackend.iam.gserviceaccount.com"
+}
