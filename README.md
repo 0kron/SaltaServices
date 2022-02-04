@@ -45,6 +45,10 @@ Then, make sure Python is working on your Mac with the following:
 python -V
 python3 -V
 ```
+And follow [this](https://developers.google.com/sheets/api/guides/concepts) guide to install the mandatory `pip` modules in the virtual enviroment of your computer. 
+*if necessary: allow the development tools of Xcode in MacOs, it is not necessary that you install the complete Xcode IDE*
+
+Finally, you are ready to follow the same steps as in the Linux section. 
 
 ### Windows
 Copy the files in this repository to a folder of your combenience and make sure you have Python in your PATH by running: 
