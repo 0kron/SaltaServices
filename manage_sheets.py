@@ -24,13 +24,14 @@ class GoogleSheet:
         
         #Set Permits: 
         self.SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-        self.SERVICE_ACCOUNT_FILE = '/path/to/the/*.json'
+        self.SERVICE_ACCOUNT_FILE = '/home/kron/Documents/kronDev/kronPy/SaltaServices/SaltaServiceBash/keys.json'
+
         self.creds = None
         self.creds = service_account.Credentials.from_service_account_file(
         self.SERVICE_ACCOUNT_FILE, scopes=self.SCOPES)
 
         # The ID and range of a sample spreadsheet.
-        self.SAMPLE_SPREADSHEET_ID = 'URL ID of the Google Sheets'
+        self.SAMPLE_SPREADSHEET_ID = '1UGu1bBWuS-J6lmuxuCMwv_GL8LUPlpXzTZ3VGR4Nyz0'
 
         self.service = build('sheets', 'v4', credentials=self.creds)
 
@@ -104,21 +105,20 @@ class GoogleSheet:
         return request
     
     ##Replace the column with empty values
-    def deleteColumn(self, column = "A", hoja = "Stock"): #HOJA!A1:G3
-        range_values = self.findY(hoja)
+    def deleteColumn(self, hoja = "Stock", column = "A"): #HOJA!A1:G3
         request = self.sheet.values().update(spreadsheetId=self.SAMPLE_SPREADSHEET_ID,
-                            range=f"{hoja}!{column}2:{column}{str(range_values)}", 
+                            range=f"{hoja}!{column}2:{column}150", 
                             valueInputOption="USER_ENTERED",
-                            body={"values":[[""] for i in range(range_values)]}).execute()
+                            body={"values":[[""] for i in range(150)]}).execute()
         return request
     
     #Replace the row with empty values
     def deleteRow(self, row = 2, hoja = "Stock"):
         range_values = self.findX(hoja)
         request = self.sheet.values().update(spreadsheetId=self.SAMPLE_SPREADSHEET_ID,
-                            range=f"{hoja}!A{row}:{range_values}{row}",
+                            range=f"{hoja}!A{row}:Z{row}",
                             valueInputOption="USER_ENTERED",
-                            body={"values":[["" for i in range(alph.find(range_values))]]}).execute()
+                            body={"values":[["" for i in range(26)]]}).execute()
         return request
 
     #All of the functions on here are enherit to the self made GoogleSheet class and 
