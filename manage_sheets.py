@@ -24,14 +24,14 @@ class GoogleSheet:
         
         #Set Permits: 
         self.SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-        self.SERVICE_ACCOUNT_FILE = '/home/kron/Documents/kronDev/kronPy/SaltaServices/SaltaServiceBash/keys.json'
+        self.SERVICE_ACCOUNT_FILE = 'path/to/keys.json'
 
         self.creds = None
         self.creds = service_account.Credentials.from_service_account_file(
         self.SERVICE_ACCOUNT_FILE, scopes=self.SCOPES)
 
         # The ID and range of a sample spreadsheet.
-        self.SAMPLE_SPREADSHEET_ID = '1UGu1bBWuS-J6lmuxuCMwv_GL8LUPlpXzTZ3VGR4Nyz0'
+        self.SAMPLE_SPREADSHEET_ID = 'URL ID'
 
         self.service = build('sheets', 'v4', credentials=self.creds)
 
@@ -39,7 +39,7 @@ class GoogleSheet:
         self.sheet = self.service.spreadsheets()
 
     #The single value disregards the listed property of the values.
-    def returnValue(self, hoja="Stock", range_values="A1"): 
+    def returnValue(self, hoja="Sheets 1", range_values="A1"): 
         result = self.sheet.values().get(spreadsheetId=self.SAMPLE_SPREADSHEET_ID, 
                                     range=f"{hoja}!{range_values}").execute()
         values = result.get('values', [])
