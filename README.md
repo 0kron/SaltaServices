@@ -8,7 +8,7 @@ Previous steps to implement inside a session of Google Cloud and creating a Serv
 
 ---
 ## manage_sheets.py
-An Object-Oriented module that allows the developer create a `GoogleSheets` object and execute commands of edit simpler, mantaaining the modular philosophy of Python and also to reduce possible verbose as the API uses different layers in the Google Projects to allow make changes.
+An Object-Oriented module that allows the developer create a `GoogleSheets` object and execute commands of edit simpler, mantaaining the modular philosophy of Python and also to reduce possible verbose as the API uses different layers in the Google Projects to allow make changes. The module uses a service account made with Google Cloud, if suitable, check put the module on `SaltaServicesSrc/manage_sheets.py`.
 
 ## Introduction to the project and the IA: 
 
