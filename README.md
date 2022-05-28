@@ -18,7 +18,8 @@ The repository and documentation around the algorithms developed fullfil the Cri
 *Considerations*: The project is working only on Python, different addaptations should be made to use it on another language. The project is using Python 3.10 or upper and takes advantage of the free access modules inside the *pip* library of modules created by Google themselfs. 
 
 ## Implementation
-The project connects directly with the following Google Sheets: https://docs.google.com/spreadsheets/d/1UGu1bBWuS-J6lmuxuCMwv_GL8LUPlpXzTZ3VGR4Nyz0/edit?usp=sharing this link provides a *read only* mode access in order to keep certain order in the project while allowing any possible user to interact with the solution. 
+The project connects directly with the following Google Sheets: [Salta Services Sheets](https://docs.google.com/spreadsheets/d/1UGu1bBWuS-J6lmuxuCMwv_GL8LUPlpXzTZ3VGR4Nyz0/edit?usp=sharing), this link provides a *read only* mode access in order to keep certain order in the project while allowing any possible user to interact with the solution. 
+
 In addition, you can also check the Criterion D video [here](https://youtu.be/HFa2AMmqrrc) with an example of full use of the system.
 
 ## Installation:
