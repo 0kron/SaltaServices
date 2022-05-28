@@ -49,5 +49,3 @@ alias pomodoro='python3 $HOME/path/to/the/git_clone/SaltaServices/backend_main_s
 ```
 To do something similar on **MacOS** follow [this](https://developers.google.com/sheets/api/guides/concepts) guide to install the mandatory `pip` modules in the virtual enviroment of your computer. 
 *if necessary: allow the development tools of Xcode in MacOs, it is not necessary that you install the complete Xcode IDE*
-
-Finally, you are ready to follow the same steps as in the Linux section. 
