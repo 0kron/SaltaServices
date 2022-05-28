@@ -29,9 +29,11 @@ To install the program in your computer using your own Google Sheets follow the 
 Firstly, make sure Python is working on your Mac with the following: 
 
 ```
-python -V
 python3 -V
+
+> Python 3.10.x
 ```
+
 
 `cd` to the directory where you want to install the program and run: 
 ```
