@@ -41,7 +41,7 @@ $ git clone https://github.com/0kron/SaltaServices
 
 And simply run the program using: 
 ```
-$ python3 $HOME/path/to/the/git_clone/pomodoro/main.py
+$ python3 $HOME/path/to/the/git_clone/SaltaServicesSrc/main.py
 ```
 On **Linux** you may also assaign an `alias` to the command on `.bashrc`: 
 ```
